@@ -39,6 +39,8 @@ class String
     sum = per + que + exc
     if sum == -3
       return 0 
-    end 
+    else 
+      sum 
+    end  
   end
 end
