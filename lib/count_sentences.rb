@@ -21,6 +21,6 @@ class String
     question.delete("")
     exclaim = self.split("!")
     exclaim.delete("")
-    question
+    if sentence?
   end
 end
