@@ -22,5 +22,6 @@ class String
     exclaim = self.split("!")
     exclaim.delete("")
     if sentence?
+      
   end
 end
