@@ -22,6 +22,19 @@ class String
     exclaim = self.split("!")
     exclaim.delete("")
     if sentence?
-      
+      per = period.count - 1 
+    else 
+      per = period.count
+    end
+    if question?
+      que = question.count - 1 
+    else 
+      que = question.count 
+    end
+    if exclamation?
+      exc = exclamation.count - 1 
+    else 
+      exc = exclamation.count 
+    end
   end
 end
