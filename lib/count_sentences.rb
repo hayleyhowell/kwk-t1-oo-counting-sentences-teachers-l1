@@ -32,9 +32,9 @@ class String
       que = question.count 
     end
     if exclamation?
-      exc = exclamation.count - 1 
+      exc = exclaim.count - 1 
     else 
-      exc = exclamation.count 
+      exc = exclaim.count 
     end
   end
 end
