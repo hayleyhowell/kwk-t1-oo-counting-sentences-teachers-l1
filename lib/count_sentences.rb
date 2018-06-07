@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    if self.count == 0 
+    if self == nil 
       return 0 
     end 
     period = self.split(".")
