@@ -36,6 +36,9 @@ class String
     else 
       exc = exclaim.count - 1 
     end
-    per + que + exc
+    sum = per + que + exc
+    if sum == -3
+      return 0 
+    end 
   end
 end
