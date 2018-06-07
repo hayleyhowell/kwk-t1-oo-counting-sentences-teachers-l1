@@ -21,6 +21,6 @@ class String
     question.delete("")
     exclaim = self.split("!")
     exclaim.delete("")
-    period.count + question.count + exclaim.count
+    period
   end
 end
