@@ -15,9 +15,6 @@ class String
   end
 
   def count_sentences
-    if self == nil
-      return 0 
-    end 
     period = self.split(".")
     period.delete("")
     question = self.split("?")
@@ -39,6 +36,6 @@ class String
     else 
       exc = exclaim.count 
     end
-    per + que + exc - 1 
+    per + que + exc
   end
 end
