@@ -36,5 +36,6 @@ class String
     else 
       exc = exclaim.count 
     end
+    per + que + exc 
   end
 end
